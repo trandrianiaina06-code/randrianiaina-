@@ -1,0 +1,32 @@
+2026-06-02 07:29:28,324 [1] INFO  WebInstaller.Views.MainWindow - WebInstaller version 8.4.2.78 launched with params C:\Users\DELL\Downloads\cyberghost-8-4-11-14569.exe
+2026-06-02 07:29:30,578 [1] INFO  WebInstaller.Views.MainWindow - Parsing command line
+2026-06-02 07:29:30,580 [1] INFO  WebInstaller.Views.MainWindow - Installation mode is Install
+2026-06-02 07:29:30,588 [1] INFO  WebInstaller.Views.MainWindow - Using Language: fr
+2026-06-02 07:29:30,588 [1] INFO  WebInstaller.Views.MainWindow - Using ClickID: NOT SET
+2026-06-02 07:29:30,593 [1] INFO  WebInstaller.Views.MainWindow - Changing language to fr
+2026-06-02 07:29:32,473 [1] INFO  WebInstaller.Views.MainWindow - Probing with Dynamic and DNS caching True
+2026-06-02 07:29:33,631 [1] INFO  WebInstaller.Views.MainWindow - Probing with Dynamic and DNS caching True succeeded!
+2026-06-02 07:29:33,634 [1] INFO  WebInstaller.Views.MainWindow - API is reachable by:
+2026-06-02 07:29:33,634 [1] INFO  WebInstaller.Views.MainWindow - DnsCaching: True
+2026-06-02 07:29:33,634 [1] INFO  WebInstaller.Views.MainWindow - Resolver: Dynamic
+2026-06-02 07:29:33,650 [4] INFO  WebInstaller.Installer.WebBasedInstaller - Installation Step 0: requesting ClickData
+2026-06-02 07:29:33,655 [4] INFO  WebInstaller.Installer.InstallationSteps.ClickDataRequestor - Requesting ClickData
+2026-06-02 07:29:33,667 [5] INFO  WebInstaller.Installer.WebBasedInstaller - Generating new ClickId
+2026-06-02 07:29:37,165 [13] INFO  WebInstaller.Installer.WebBasedInstaller - Installation Step 1: closing running process list
+2026-06-02 07:29:37,202 [13] INFO  WebInstaller.Installer.WebBasedInstaller - Installation Step 2: showing T&C
+2026-06-02 07:29:39,181 [4] INFO  WebInstaller.Installer.WebBasedInstaller - Installation Step 3: checking for an old installation ...
+2026-06-02 07:29:39,189 [4] INFO  WebInstaller.Installer.WebBasedInstaller - Installation Step 3: no previous version detected!
+2026-06-02 07:29:39,190 [4] INFO  WebInstaller.Installer.WebBasedInstaller - Installation Step 4: starting WebDownloader with channel Live
+2026-06-02 07:29:40,079 [3] INFO  WebInstaller.Installer.InstallationSteps.WebDownloader - Using installer content from https://download.cyberghostvpn.com/windows/webinstaller/8/live/8.4.14.14661.zip
+2026-06-02 07:29:40,113 [3] INFO  WebInstaller.Installer.InstallationSteps.WebDownloader - Downloading content
+2026-06-02 07:30:14,985 [4] INFO  WebInstaller.Installer.InstallationSteps.WebDownloader - Download complete, checking file signature
+2026-06-02 07:30:15,235 [4] INFO  WebInstaller.Installer.InstallationSteps.WebDownloader - Signature passed validation
+2026-06-02 07:30:15,243 [4] INFO  WebInstaller.Installer.WebBasedInstaller - Installation Step 5: ContentExtractor
+2026-06-02 07:30:15,256 [4] INFO  WebInstaller.Installer.InstallationSteps.ContentExtractor - Extracting C:\WINDOWS\system32\config\systemprofile\AppData\Local\Temp\KAPE\Update\93c5b3bb-6c76-42de-bf5a-40713d4562d1\fec8c100-0c2d-492a-bdf0-ca2024140869.zip
+2026-06-02 07:30:19,636 [4] INFO  WebInstaller.Installer.WebBasedInstaller - Installation Step 6: InstallContent
+2026-06-02 07:30:19,661 [13] INFO  WebInstaller.Installer.InstallationSteps.ContentInstaller - Create debug directory
+2026-06-02 07:30:19,669 [13] INFO  WebInstaller.Installer.InstallationSteps.ContentInstaller - Process click data
+2026-06-02 07:30:20,282 [1] INFO  WebInstaller.Installer.InstallationSteps.ContentInstaller - Creating uninstaller entry
+2026-06-02 07:30:20,310 [19] INFO  WebInstaller.Installer.InstallationSteps.ContentInstaller - Installing CyberGhost
+2026-06-02 07:30:43,314 [6] INFO  WebInstaller.Installer.InstallationSteps.ContentInstaller - Starting CyberGhost with /firststart
+2026-06-02 07:30:43,472 [6] INFO  WebInstaller.Installer.WebBasedInstaller - Installation Step 7: updating click data
